@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Londrina+Solid&family=Love+Ya+Like+A+Sister&family=Manuale&family=Mate&family=McLaren&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
+
+.header-container{
+    overflow: hidden; 
+}
+
+.header {
+    background: #6A68CC;
+    height: 155px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 1850px;
+}
+
+@media screen and (max-width: 938px){
+    .header{
+        width: auto;
+        max-width: 938px;
+    }
+}
+
+
+.oval-bottom{
+    background: #FFFFFF;
+    border-radius: 50%;
+    height: 90.96px;
+    left: -71.43px;
+    position: relative;
+    top: 114px;
+    width: 542px;
+}
+
+@media screen and (max-width: 938px){
+    .oval-bottom{
+        background: #FFFFFF;
+        border-radius: 50%;
+        height: 90.96px;
+        left: -71.43px;
+        position: relative;
+        top: 114px;
+        width: auto;
+    }
+}
+
+.logo{
+    font-family: Dr Sugiyama;
+    color: white;
+    bottom: 100px;
+    font-size: 55px;
+    position:relative;
+}
+
+
+.oval-top{
+    background: #FFFFFF;
+    border-radius: 50%;
+    height: 62.63px;
+    left: 1265px;
+    position: relative;
+    top: -285.63px;
+    width: 586px;
+}
+
+@media screen and (max-width: 938px){
+    .oval-top{
+        background: #FFFFFF;
+        border-radius: 50%;
+        height: 62.63px;
+        left: 70px;
+        position: relative;
+        top: -125.63px;
+        width: auto;
+    }
+}
+
+.headline{
+    color: #FFFFFF;
+    font-family: Mate;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    height: 53px;
+    left: 1320px;
+    line-height: 29px;
+    position: absolute;
+    text-align: right;
+    top: 88px;    
+    width: 489px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-container li{
+    display: inline;
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+}
+
+@media screen and (max-width: 938px){
+    .nav-container li{
+        display: block;
+    }
+}
+
+.nav-links{
+    color: #302EA5;
+    font-family: Manuale;
+    font-size: 24px;
+    line-height: 34px;
+    position: relative;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+}
+
+.nav-links:hover{
+    background-color: #302EA5;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+/*The header has ended. Start of web content */
+
+.content-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 938px){
+    .content-one{
+        flex-wrap: wrap;
+    }
+}
+
+.content-items{
+    margin: 2em;
+}
+
+.img-admin{
+    border-radius: 20px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    z-index: 1;
+}
+
+.img-background{
+    background: #BFBEF2;
+    border-radius: 20px;
+    height: 305px;
+    position: absolute;
+    width: 348px;
+    bottom: 410px;
+}
+
+@media screen and (max-width: 938px){
+    .img-background{
+        bottom: -50px;
+    }
+}
+
+.lead-header{
+    background: #918FE0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    position: relative;
+    top: 50px;
+    left: -22px;
+    width: 110%;
+    z-index: 1;
+    padding: 1px;
+}
+
+@media screen and (max-width: 938px){
+    .lead-header{
+        width: auto;
+        left: auto;
+    }
+}
+
+.lead-header-txt{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.lead-info{
+    background: #6A68CC;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    padding: 80px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+@media screen and (max-width: 938px){
+    .lead-info{
+        width: auto;
+    }
+}
+
+.input-name{
+    border: none;
+    margin: 10px;
+    padding: 8px;
+    width: 90%;
+}
+
+.input-email{
+    border: none;
+    margin: 10px;
+    padding: 8px;
+    width: 90%;
+}
+
+.lead-btn{
+    background: #4B49B6;
+    border-radius: 10px;
+    margin: 0;
+    padding: 20px 40px 20px 40px;
+}
+
+.lead-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/*My Story */
+
+.my-story-title{
+    background: #4B49AF;
+    border-radius: 20px;
+    font-family: McLaren;
+    position: relative;
+    height: 50px;
+    left: 75px;
+    top: 39px;
+    width: 150px;
+    z-index: 1;
+}
+
+.my-story-title p{
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+
+.my-story-card{
+    background: #C3C1FF;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    font-family: McLaren;
+    position: relative;
+    height: 656px;
+    width: 300px;
+}
+
+.my-story-txt p{
+    color: #6A68CC;
+    font-family: McLaren;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    padding: 35px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.my-story-btn{
+    background: #302EA5;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: McLaren;
+    padding: 20px;
+    position: relative;
+    left: 50px;
+    top: -10px;
+    width: 10em;
+}
+
+
+.my-story-btn a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Ebook*/
+
+.ebook-title{
+    background: #BFBEF2;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    width:330px;
+    height: 100px;
+    left:380px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 938px){
+    .ebook-title{
+        width: auto;
+        left:auto;
+    }
+}
+
+.ebook-title p{
+    color: #302EA5;
+    font-family: Indie Flower;
+    font-size: 56px;
+    line-height: 53px;
+    padding: 20px;
+}
+
+.ebook-items{
+    background: #4B49AF;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 663px;
+    position: relative;
+    top:-104px;
+    width: 800px;
+}
+
+@media screen and (max-width: 938px){
+    .ebook-items{
+        width: auto;
+        height:auto;
+        margin: 10px
+    }
+}
+
+.ebook-pic{
+    float: left;
+    padding: 30px;
+}
+
+.ebook-txt{
+    color: #FFFFFF;
+    font-family: McLaren;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 34px;
+    position: relative;
+    padding: 80px;
+}
+
+@media screen and (max-width: 938px){
+    .ebook-txt{
+        width: auto;
+        padding: auto;
+    }
+}
+
+.quote{
+    color: #FFFFFF;
+    font-family: Indie Flower;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.download-btn{
+    background: #918FE0;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: center;
+    width: 350px;
+    height: 120px;
+}
+
+@media screen and (max-width: 938px){
+    .download-btn{
+        width: auto;
+        margin: 15px;
+    }
+}
+
+.download-btn a{
+    color: white;
+    font-family: McLaren;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+/*content two begins*/
+
+.purple-blk{
+    background: #6A68CC;
+    height: 168px;
+    left: 0;
+    position: relative;
+    top: 100px;
+    width: 1820px;
+}
+
+.purple-blk-shape{
+    top:1220px;
+    left: 1170px;
+    position: absolute;
+    z-index: -1;
+}
+
+.post-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 938px){
+    .post-container{
+        flex-wrap: wrap;
+    }
+}
+
+.post-title-front{
+    font-family: Love Ya Like A Sister;
+    font-size: 48px;
+    height: 75px;
+    line-height: 60px;
+    position: relative;
+    right: 160px;
+    text-align: center;
+    top: 125px;
+    width: 845px;
+}
+
+.post-card-1{
+    background: #C3C1FF;
+    border-radius: 20px;
+    height: 510px;
+    position: relative;
+    width: 462px;
+}
+
+.post-card-1 h2{
+    color: #6A68CC;
+    font-family: Love Ya Like A Sister;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.card-btn-1{
+    background: #302EA5;
+    border-radius: 20px;
+    height: 55px;
+    padding: 20px 50px 20px 50px;
+    position: relative;
+    width: 161px;
+}
+
+.card-btn-1 a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+.post-card-exclusive{
+    background: #6A68CC;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 510px;
+    position: relative;
+    width: 461px;
+}
+
+.post-card-exclusive h2{
+    color: #FFFFFF;
+    font-family: Love Ya Like A Sister;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.card-btn-2{
+
+    background: #302EA5;
+    border-radius: 20px;
+    height: 55px;
+    padding: 20px 50px 20px 50px;
+    position: relative;
+    width: 161px;
+
+}
+
+.card-btn-2 a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+/*The last post card*/
+.post-card-last{
+    background: #C3C1FF;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 510px;
+    width: 461px;
+}
+
+.post-card-last h2{
+    color: #6A68CC;
+    font-family: Love Ya Like A Sister;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.card-btn-3{
+    background: #302EA5;
+    border-radius: 20px;
+    height: 55px;
+    padding: 20px 50px 20px 50px;
+    position: relative;
+    width: 161px;
+}
+
+.card-btn-3 a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    text-align: left;
+    background: #918FE0;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: auto;
+    position: relative;
+    width: auto;
+    padding: 20px;
+    top: 50px;
+}
+
+.info-card-p{
+    color: white;
+    font-family: Manuale;
+    font-size: 17px;
+}
+
+.blue{
+    color:#302EA5;
+
+}
+
+.info-card-img{
+    margin: 10px;
+}
+
+/*start of content three*/
+
+.content-three{
+    display:flex;
+    justify-content: center;
+}
+
+.community{
+    text-align: right;
+    position:relative;
+    left:-340px;
+    top: 120px;
+}
+
+.arrow{
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+
+.infographic-container{
+    background: #6A68CC;
+    border-radius: 20px;
+    height: auto;
+    position: relative;
+    width: 1380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px;
+    color: #FFFFFF;
+}
+
+.infographic-content-heading{
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.infograpic-paragraph{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 20px;
+    text-align: left;
+}
+
+.infographic-title{
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.infograpic-paragraph-obj{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.infograpic-paragraph-join{
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.infographic-illustration{
+    float: left;
+}
+
+.infographic-philosophy{
+    font-family: Londrina Solid;
+    font-size: 48px;
+    line-height: 57px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.infographic-list{
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+/*Footer*/
+
+footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.footer-slider{
+    align-items: center;
+    background: #6A68CC;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    height: 240px;
+    justify-content: space-around;
+    margin-top: 40px;
+    position: relative;
+    top: 90px;
+    width: 1349px;
+    z-index: 1;
+}
+
+.slider-img-1{
+    border-radius: 20px;
+    height: 156px;
+    width: 213px;
+}
+
+.slider-img-2{
+    border-radius: 20px;
+    height: 156px;
+    width: 213px;
+}
+
+.slider-img-3{
+    border-radius: 20px;
+    height: 156px;
+    width: 213px;
+}
+
+.slider-img-4{
+    border-radius: 20px;
+    height: 156px;
+    width: 213px;
+}
+
+.footer-blk{
+    background: #302EA5;
+    height: 20em;
+    position: relative;
+    width: 1850px;
+}
+
+.footer-blk-p{
+    color: #FFFFFF;
+    display: inline;
+    font-family: Indie Flower;
+    font-size: 22px;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.footer-blk ul{
+    margin-top: 80px;
+}
+
+.footer-blk li{
+    display: inline;
+}
+
+.footer-links{
+    color: #FFFFFF;
+    font-family: Indie Flower;
+    font-size: 22px;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
