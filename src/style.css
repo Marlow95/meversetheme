@@ -17,6 +17,7 @@
 @media screen and (max-width: 938px){
     .header{
         width: auto;
+        height: 250px;
         max-width: 938px;
     }
 }
@@ -39,7 +40,7 @@
         height: 90.96px;
         left: -71.43px;
         position: relative;
-        top: 114px;
+        top: 200px;
         width: auto;
     }
 }
@@ -50,6 +51,12 @@
     bottom: 100px;
     font-size: 55px;
     position:relative;
+}
+
+@media screen and (max-width: 938px){
+    .logo{
+        bottom: 50px;
+    }
 }
 
 
@@ -70,7 +77,7 @@
         height: 62.63px;
         left: 70px;
         position: relative;
-        top: -125.63px;
+        top: -290.63px;
         width: auto;
     }
 }
@@ -162,7 +169,8 @@
 
 @media screen and (max-width: 938px){
     .img-background{
-        bottom: -50px;
+        bottom: -140px;
+        left: 8px;
     }
 }
 
@@ -206,6 +214,7 @@
 @media screen and (max-width: 938px){
     .lead-info{
         width: auto;
+        height: auto;
     }
 }
 
@@ -221,6 +230,12 @@
     margin: 10px;
     padding: 8px;
     width: 90%;
+}
+
+@media screen and (max-width: 938px){
+    .input-email{
+        margin: 10px;
+    }
 }
 
 .lead-btn{
@@ -395,6 +410,7 @@
     .download-btn{
         width: auto;
         margin: 15px;
+        padding: 9px;
     }
 }
 
@@ -414,6 +430,12 @@
     position: relative;
     top: 100px;
     width: 1820px;
+}
+
+@media screen and (max-width: 938px){
+    .purple-blk{
+        width: auto;
+    }
 }
 
 .purple-blk-shape{
@@ -455,6 +477,12 @@
     width: 462px;
 }
 
+@media screen and (max-width: 938px){
+    .post-card-1{
+        margin: 70px;
+    }
+}
+
 .post-card-1 h2{
     color: #6A68CC;
     font-family: Love Ya Like A Sister;
@@ -485,6 +513,12 @@
     height: 510px;
     position: relative;
     width: 461px;
+}
+
+@media screen and (max-width: 938px){
+    .post-card-exclusive{
+        margin: 70px;
+    }
 }
 
 .post-card-exclusive h2{
@@ -519,6 +553,12 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     height: 510px;
     width: 461px;
+}
+
+@media screen and (max-width: 938px){
+    .post-card-last{
+        margin: 70px;
+    }
 }
 
 .post-card-last h2{
@@ -559,6 +599,12 @@
     top: 50px;
 }
 
+@media screen and (max-width: 938px){
+    .info-card{
+        flex-wrap: wrap;
+    }
+}
+
 .info-card-p{
     color: white;
     font-family: Manuale;
@@ -588,6 +634,13 @@
     top: 120px;
 }
 
+@media screen and (max-width: 938px){
+    .community{
+        text-align: center;
+        left: 35px;
+    }
+}
+
 .arrow{
     z-index: 1;
     position: relative;
@@ -607,6 +660,13 @@
     align-items: center;
     padding:15px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 938px){
+    .infographic-container{
+        flex-wrap: wrap;
+        width: 300px;
+    }
 }
 
 .infographic-content-heading{
@@ -686,6 +746,14 @@ footer{
     overflow: hidden;
 }
 
+@media screen and (max-width: 938px){
+    .footer{
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
+}
+
 .footer-slider{
     align-items: center;
     background: #6A68CC;
@@ -700,6 +768,15 @@ footer{
     top: 90px;
     width: 1349px;
     z-index: 1;
+}
+
+@media screen and (max-width: 938px){
+    .footer-slider{
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
 }
 
 .slider-img-1{
