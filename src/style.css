@@ -445,6 +445,13 @@
     z-index: -1;
 }
 
+@media screen and (max-width: 938px){
+    .purple-blk-shape{
+        display: none;
+        overflow: hidden;
+    }
+}
+
 .post-container{
     display: flex;
     flex-direction: row;
@@ -646,6 +653,12 @@
     position: relative;
     top: 100px;
     left: 160px;
+}
+
+@media screen and (max-width: 938px){
+    .arrow{
+        display: none;
+    }
 }
 
 .infographic-container{
