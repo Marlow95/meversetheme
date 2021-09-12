@@ -1,8 +1,12 @@
-import Header from './component/Header'
-import Body from './component/Body'
-import Body2 from './component/BodyTwo'
-import Body3 from './component/BodyThree'
-import Footer from './component/Footer'
+import React from 'react';
+import Header from "./component/Header"
+import Footer from "./component/Footer"
+import { Switch, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Blog from "./pages/Blog"
+import Services from "./pages/Services"
+import ContactUs from "./pages/ContactUs"
 import './style.css'
 import './App.css';
 
@@ -10,9 +14,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Body />
-      <Body2 />
-      <Body3 />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/services" component={Services} />
+          <Route path="/getintouch" component={ContactUs} />
+        </Switch>
       <Footer />
     </div>
   );
