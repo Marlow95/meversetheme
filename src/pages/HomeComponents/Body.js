@@ -36,9 +36,14 @@ function Body(){
                             <p> Hi Girls,
                                 This is Delia I’m a country girl from Oregon. 
                                 But don’t let that fool you. I’m as tough as you can get. 
-                                I first went to the city alone at 18. By 20 I found myself pregnant and in an abusive relationship.
-                                However, I  am not a victim.  I worked up the courage to get away from that nightmare. 
-                                Then  eventually start my own 7-figure fashion business. Not bad for a country kid.
+                                I first went to the city alone at 18. 
+                                <br/>
+                                By 20 I found myself pregnant and in an abusive relationship.
+                                However, I  am not a victim.  
+                                <br/>
+                                I worked up the courage to get away from that nightmare. 
+                                Then  eventually start my own 7-figure fashion business. 
+                                Not bad for a country kid.
                             </p>
                             <div className="my-story-btn"><Link to="/about">Learn More</Link></div>
                         </div>
