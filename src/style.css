@@ -209,7 +209,7 @@
     position: relative;
     text-align: center;
     width: 300px;
-    height: auto;
+    height: 150px;
     font-family: Poppins;
 }
 
@@ -279,7 +279,7 @@
     box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
     font-family: McLaren;
     position: relative;
-    height: 656px;
+    height: 699px;
     width: 300px;
 }
 
@@ -348,7 +348,7 @@
     background: #4B49AF;
     border-radius: 20px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    height: 663px;
+    height: 705px;
     position: relative;
     top:-104px;
     width: 800px;
