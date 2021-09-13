@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Body(){
     return(
@@ -39,7 +40,7 @@ function Body(){
                                 However, I  am not a victim.  I worked up the courage to get away from that nightmare. 
                                 Then  eventually start my own 7-figure fashion business. Not bad for a country kid.
                             </p>
-                            <div className="my-story-btn"><a href="https://www.google.com/">Learn More</a></div>
+                            <div className="my-story-btn"><Link to="/about">Learn More</Link></div>
                         </div>
                     </div>
                 </div>
