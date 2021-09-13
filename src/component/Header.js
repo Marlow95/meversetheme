@@ -15,11 +15,13 @@ function Header(){
                 </div>
             </header>
             <nav className="nav-container">
-                <Link to="/" className="nav-links">home</Link>
-                <Link to="/about" className="nav-links">about</Link>
-                <Link to="/blog" className="nav-links">blog</Link>
-                <Link to="/services" className="nav-links">services</Link>
-                <Link to="/getintouch" className="nav-links">get in touch</Link>
+                <ul>
+                    <li><Link to="/" className="nav-links">home</Link></li>
+                    <li><Link to="/about" className="nav-links">about</Link></li>
+                    <li><Link to="/blog" className="nav-links">blog</Link></li>
+                    <li><Link to="/services" className="nav-links">services</Link></li>
+                    <li><Link to="/getintouch" className="nav-links">get in touch</Link></li>
+                </ul>
             </nav>
         </div>
     )

@@ -15,11 +15,13 @@ function Footer(){
 
                 <div className="footer-blk">
                     <br/>
-                    <Link to="/" className="footer-links">home</Link>
-                    <Link to="/about" className="footer-links" >about</Link>
-                    <Link to="/blog" className="footer-links" >blog</Link>
-                    <Link to="/services" className="footer-links" >services</Link>
-                    <Link to="/getintouch" className="footer-links" >get in touch</Link>
+                    <ul>
+                        <li><Link to="/" className="footer-links">home</Link></li>
+                        <li><Link to="/about" className="footer-links" >about</Link></li>
+                        <li><Link to="/blog" className="footer-links" >blog</Link></li>
+                        <li><Link to="/services" className="footer-links" >services</Link></li>
+                        <li><Link to="/getintouch" className="footer-links" >get in touch</Link></li>
+                    </ul>
                     <br/>
                     <p className="footer-blk-p">© 2016-2021 All Rights Reserved, Delia Holiday
                     <br/>Designed by Marlow</p>
