@@ -2,7 +2,8 @@ import React from 'react';
 
 function About(){
     const fontStyle =  {
-        fontFamily: 'Poppins'
+        fontFamily: 'Poppins',
+        textAlign: 'center'
     }
     const paragraphStyle =  {
         fontFamily: 'Love Ya Like A Sister'
@@ -12,17 +13,15 @@ function About(){
         borderRadius: '6px',
         color: 'white',
         fontFamily: 'Poppins',
-        left: '245px',
-        padding: '20px',
+        padding: '80px',
         position: 'relative',
         textAlign: 'left',
-        width: '1345px',
     }
     return (
         <div>
-            <h1 style={fontStyle}>Who's Delia?</h1>
             <div style={styles}>
                 <article>
+                    <h1 style={fontStyle}>Who's Delia?</h1>
                     <h2 style={paragraphStyle}>How It All Started</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat mattis lorem eu vulputate. 

@@ -19,6 +19,10 @@ function ContactUs(){
         padding: '20px'
     }
 
+    const contactHeading = {
+        fontFamily:'Love Ya Like A Sister'
+    }
+
     const inputStyles = {
         margin: '10px',
         border: 'none',
@@ -34,7 +38,7 @@ function ContactUs(){
 
     return (
         <div style={mainStyles}>
-            <h1>Contact Us</h1>
+            <h1 style={contactHeading}>Contact Us</h1>
             <form style={contactStyles}>
                 Full Name<br/>
                 <input style={inputStyles} type="text" placeholder="Name" name="fullname"/><br/>
